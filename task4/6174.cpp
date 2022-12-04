@@ -24,9 +24,7 @@ int main(){
 	if(des<10){
 		des*=1000;
 	}
-	int maxi = max(asc , des);
-	int mini = min(asc , des);
-	x = maxi - mini ; 
+	x = des - asc ; 
 	diff = to_string(x);
 	}
 	cout<<count;
