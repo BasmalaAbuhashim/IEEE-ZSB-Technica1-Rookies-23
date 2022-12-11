@@ -7,7 +7,8 @@ int main(){
   stack<long long> ranks;
   for (i = 0; i < n; i++) {
     cin >> rank;
-    if (ranks.empty() || ranks.top() != rank) ranks.push(rank);
+    if (ranks.empty() || ranks.top() != rank)
+      ranks.push(rank);
   }
   cin >> m;
   for (i = 0; i < m; i++) {
